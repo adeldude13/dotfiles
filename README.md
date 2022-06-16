@@ -1,1 +1,1 @@
-![i use arch btw](https://imgur.com/a/fIX4saQ)
+![iUseArchBtw](https://i.imgur.com/DBmrNsD.png)
