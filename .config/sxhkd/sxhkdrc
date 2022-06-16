@@ -1,0 +1,26 @@
+super + Return	
+	kitty	
+
+super + shift + e
+	killall Xorg
+
+
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+XF86AudioMute
+	pulseaudio-ctl mute
+super + p
+	rofi -show drun -font 'DejaVu Sans Mono 13'
+
+super + a
+	setxkbmap ar
+
+super + s
+	setxkbmap eu;xmodmap ~/.speedswapper
+
+Print 
+	flameshot screen
